@@ -665,6 +665,7 @@ Page Rendering
 
 GPU Rendering
 -------------
+* The GPU for rendering offers significant advantages due to its parallel processing capabilities. Unlike the CPU, which primarily handles tasks sequentially, the GPU can simultaneously execute numerous operations, making it exceptionally efficient for the complex float-point calculations essential in rendering. By distributing rendering tasks across multiple cores within the GPU, graphical software can harness its immense parallelism to expedite the rendering process. This accelerates rendering times and enhances overall performance .
 
 * During the rendering process the graphical computing layers can use general
   purpose ``CPU`` or the graphical processor ``GPU`` as well.
